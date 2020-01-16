@@ -82,8 +82,7 @@ label {
 
 input[type="text"],
 input[type="email"],
-input[type="password"],
-textarea {
+input[type="password"] {
   border-radius: 4px;
   border: 1px solid #ccc;
   padding: 15px;
@@ -96,9 +95,7 @@ textarea {
 }
 
 input:hover,
-input:focus,
-textarea:hover,
-textarea:focus {
+input:focus {
   outline: none;
   box-shadow: 0 6px 12px rgba(30, 60, 90, 0.2);
   border-color: #01366c;
