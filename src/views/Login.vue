@@ -5,7 +5,13 @@
       <label for="email">Email</label>
       <input type="email" name="email" id="email" v-model="login.email" />
       <label for="senha">Senha</label>
-      <input type="password" name="senha" id="senha" v-model="login.senha" />
+      <input
+        type="password"
+        name="senha"
+        id="senha"
+        v-model="login.senha"
+        autocomplete="off"
+      />
       <button class="btn" @click.prevent="logar">Logar</button>
     </form>
     <p class="forgot-my-password">

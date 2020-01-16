@@ -40,7 +40,7 @@ export default {
   methods: {
     iniciar() {
       this.$router.push({
-        name: "test"
+        name: "test1"
       });
     }
   }
