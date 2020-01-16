@@ -21,7 +21,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Test1",
+  methods: {
+    save() {
+      this.$router.push({
+        name: "test2"
+      });
+    }
+  }
+};
 </script>
 
 <style scoped>
@@ -53,6 +62,11 @@ form {
 
 input {
   grid-column: 1 / 2;
+}
+
+input:hover {
+  transform: scale(1.3);
+  cursor: pointer;
 }
 
 label {
