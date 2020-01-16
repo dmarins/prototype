@@ -12,46 +12,12 @@
         Leia com atenção todos os itens e, somente então, comece a
         resolvê-los...
       </li>
-      <li>
-        Não será permitida a consulta a quaisquer documentos, nem a outro
-        candidato...
-      </li>
-      <li>Esta prova está dividida em duas partes...</li>
-      <li>
-        Leia com atenção todos os itens e, somente então, comece a
-        resolvê-los...
-      </li>
-      <li>
-        Leia com atenção todos os itens e, somente então, comece a
-        resolvê-los...
-      </li>
-      <li>
-        Não será permitida a consulta a quaisquer documentos, nem a outro
-        candidato...
-      </li>
     </ol>
     <h2>Outra seção</h2>
     <ol>
       <li>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
         vulputate dui. Maecenas ut sapien mauris...
-      </li>
-      <li>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-        vulputate dui. Maecenas ut sapien mauris....
-      </li>
-      <li>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-        vulputate dui. Maecenas ut sapien mauris....
-      </li>
-      <li>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-        vulputate dui. Maecenas ut sapien mauris....
-      </li>
-      <li>Esta prova está dividida em duas partes...</li>
-      <li>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-        vulputate dui. Maecenas ut sapien mauris....
       </li>
       <li>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
