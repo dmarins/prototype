@@ -35,10 +35,16 @@
 </template>
 
 <script>
+import { mapActions } from "vuex";
+
 export default {
   name: "Welcome",
   methods: {
+    ...mapActions("log", {
+      register: "register"
+    }),
     iniciar() {
+      this.register(`o candidato aceitou as regras da prova.`);
       this.$router.push({
         name: "test1"
       });

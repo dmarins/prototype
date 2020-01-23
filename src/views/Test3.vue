@@ -24,6 +24,8 @@
 </template>
 
 <script>
+import { mapActions } from "vuex";
+
 export default {
   name: "Test3",
   data() {
@@ -32,7 +34,13 @@ export default {
     };
   },
   methods: {
+    ...mapActions("log", {
+      register: "register"
+    }),
     save() {
+      this.register(
+        `o candidato respondeu a terceira pergunta e finalizou a prova.`
+      );
       this.showMessage = true;
     }
   }

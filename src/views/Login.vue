@@ -21,6 +21,8 @@
 </template>
 
 <script>
+import { mapActions } from "vuex";
+
 export default {
   name: "Login",
   data() {
@@ -32,12 +34,22 @@ export default {
     };
   },
   methods: {
+    ...mapActions("log", {
+      register: "register",
+      clear: "clear"
+    }),
     logar() {
+      this.register(
+        `o candidato ${this.login.email} logou no sistema de prova.`
+      );
       this.$router.push({
         name: "welcome",
         params: { user: this.login.email }
       });
     }
+  },
+  created() {
+    this.clear();
   }
 };
 </script>

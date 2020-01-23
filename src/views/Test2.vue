@@ -21,10 +21,16 @@
 </template>
 
 <script>
+import { mapActions } from "vuex";
+
 export default {
   name: "Test2",
   methods: {
+    ...mapActions("log", {
+      register: "register"
+    }),
     save() {
+      this.register(`o candidato respondeu a segunda pergunta.`);
       this.$router.push({
         name: "test3"
       });
